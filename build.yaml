@@ -5,8 +5,6 @@
 # pass flags to the build command, `snippet` to add a Zephyr snippet, and
 # `artifact-name` to assign a name to distinguish build outputs from each other:
 #
-board: [ "nice_nano_v2" ]
-shield: [ "pain27" ]
 # include:
 #   - board: bdn9_rev2
 #   - board: nice_nano_v2
@@ -18,6 +16,8 @@ shield: [ "pain27" ]
 #     artifact-name: corne_left_with_studio
 #
 ---
+board: [ "nice_nano_v2" ]
+shield: [ "pain27" ]
   - board: nice_nano_v2
     shield: pain27
     artifact-name: pain27_default
