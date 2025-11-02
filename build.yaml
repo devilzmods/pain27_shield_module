@@ -18,6 +18,7 @@
 ---
 board: [ "nice_nano_v2" ]
 shield: [ "pain27" ]
+include:
   - board: nice_nano_v2
     shield: pain27
     artifact-name: pain27_default
