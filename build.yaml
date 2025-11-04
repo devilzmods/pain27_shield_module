@@ -21,4 +21,6 @@ shield: [ "pain27" ]
 include:
   - board: nice_nano_v2
     shield: pain27
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: pain27_default
